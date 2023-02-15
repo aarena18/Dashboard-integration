@@ -1,10 +1,11 @@
 @import "sass/header";
+@import "sass/left-side-nav";
 
-* {
+body {
   background-color: #000;
 }
 
-main{
+main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -12,20 +13,15 @@ main{
   height: 100vh;
   width: 100vw;
 }
-#l-side-nav{
-  background-color: rgb(175, 171, 171);
-    height: 100%;
-    width: 20%;
- 
-}
-#main-content{
+
+#main-content {
   background-color: rgb(143, 195, 176);
-    height: 100%;
-    width: 55%;
+  height: 100%;
+  width: 55%;
 }
-#r-side-nav{
+#r-side-nav {
   background-color: rgb(193, 134, 134);
-    height: 100%;
-    width: 25%; 
-    float: right;
+  height: 100%;
+  width: 25%;
+  float: right;
 }
