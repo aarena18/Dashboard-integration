@@ -13,7 +13,13 @@
       align-items: center;
       gap: 20px;
 
-      h2, span, p {
+      .currency {
+        width: 115px;
+      }
+
+      h2,
+      span,
+      p {
         font-weight: 600;
         font-size: 18px;
       }
@@ -33,7 +39,8 @@
   }
 
   .btm-container {
-    .card-top, .card-btm {
+    .card-top,
+    .card-btm {
       width: 350px;
       height: 174px;
       border-radius: 30px;
@@ -58,7 +65,12 @@
     }
 
     .card-btm {
-      background: linear-gradient(99.56deg, #FAFF00 35.82%, #29ABE2 64.75%, #fff 91.33%);
+      background: linear-gradient(
+        99.56deg,
+        #faff00 35.82%,
+        #29abe2 64.75%,
+        #fff 91.33%
+      );
     }
   }
 }
