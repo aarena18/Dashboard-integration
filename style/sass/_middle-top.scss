@@ -1,6 +1,8 @@
 .container-top {
   height: 100px;
   display: flex;
+  flex-wrap: wrap;
+
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
@@ -19,7 +21,13 @@
   .li {
     display: flex;
     align-items: center;
+    
     gap: 32px;
+
+    @media screen and (max-width: 480px) {
+      flex-direction: column;
+      justify-self: flex-start;
+    }
   }
 
   .sub-content span {

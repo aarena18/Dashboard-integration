@@ -1,9 +1,11 @@
+
 @import "sass/header";
 @import "sass/left-side-nav";
 @import "sass/middle-top";
 @import "sass/middle-graph";
 @import "sass/middle-bottom";
 @import "sass/right-side-nav";
+
 
 body {
   background-color: #000;
@@ -23,3 +25,14 @@ main {
   width: 50%;
 }
 
+@media screen and (min-width:375px) and (max-width: 1310px) {
+  main {
+    flex-direction: column;
+  }
+
+  #main-content {
+    width: 100%;
+  }
+
+
+}

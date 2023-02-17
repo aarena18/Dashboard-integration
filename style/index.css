@@ -113,6 +113,7 @@ header nav ul .search .search-input {
 .container-top {
   height: 100px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
@@ -131,6 +132,13 @@ header nav ul .search .search-input {
   display: flex;
   align-items: center;
   gap: 32px;
+}
+@media screen and (max-width: 480px) {
+  .container-top .sub-content,
+.container-top .li {
+    flex-direction: column;
+    justify-self: flex-start;
+  }
 }
 .container-top .sub-content span {
   background-color: #faff00;
@@ -167,6 +175,7 @@ header nav ul .search .search-input {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   color: #fff;
 }
@@ -325,6 +334,7 @@ header nav ul .search .search-input {
 #r-side-nav .btm-container .card-top .content,
 #r-side-nav .btm-container .card-btm .content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   font-weight: 600;
   font-size: 21px;
@@ -361,4 +371,13 @@ main {
 #main-content {
   height: 100%;
   width: 50%;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1310px) {
+  main {
+    flex-direction: column;
+  }
+  #main-content {
+    width: 100%;
+  }
 }/*# sourceMappingURL=index.css.map */
