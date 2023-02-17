@@ -9,19 +9,19 @@ header nav .logo {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 20px;
+  gap: 48px;
 }
 header nav .logo h1 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #fff;
 }
 header nav ul {
   display: flex;
   list-style: none;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  gap: 80px;
+  gap: 48px;
 }
 header nav ul h1 {
   font-size: 35px;
@@ -57,10 +57,11 @@ header nav ul .search .search-input {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 160px;
   float: left;
 }
 #l-side-nav .container {
-  margin-top: 16px;
+  margin-top: 48px;
   height: 65px;
   width: 253px;
   border-radius: 17px;
@@ -76,7 +77,7 @@ header nav ul .search .search-input {
   font-weight: 400;
 }
 #l-side-nav .middle-container {
-  margin-top: 16px;
+  margin-top: 36px;
   margin-left: 20px;
 }
 #l-side-nav .middle-container .el-li {
@@ -98,6 +99,7 @@ header nav ul .search .search-input {
   width: 253px;
   border-radius: 17px;
   margin-left: 48px;
+  margin-top: 100px;
   display: flex;
   align-items: center;
   gap: 16px;
@@ -134,7 +136,7 @@ header nav ul .search .search-input {
   background-color: #faff00;
   padding: 4px;
   border-radius: 8px;
-  color: #fff;
+  color: #000;
 }
 .container-top .sub-content p {
   font-weight: 700;
@@ -228,10 +230,11 @@ header nav ul .search .search-input {
   font-weight: 700;
 }
 .bottom-container .content {
+  width: 90%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 40px;
+  justify-content: space-around;
+  gap: 30px;
   background-color: rgba(32, 35, 43, 0.7);
   margin: 0 20px 20px;
   border-radius: 30px;
