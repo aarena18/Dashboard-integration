@@ -1,5 +1,9 @@
 @import "sass/header";
 @import "sass/left-side-nav";
+@import "sass/middle-top";
+@import "sass/middle-graph";
+@import "sass/middle-bottom";
+@import "sass/right-side-nav";
 
 body {
   background-color: #000;
@@ -15,13 +19,7 @@ main {
 }
 
 #main-content {
-  background-color: rgb(143, 195, 176);
   height: 100%;
-  width: 55%;
+  width: 50%;
 }
-#r-side-nav {
-  background-color: rgb(193, 134, 134);
-  height: 100%;
-  width: 25%;
-  float: right;
-}
+

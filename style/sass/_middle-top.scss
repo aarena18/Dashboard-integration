@@ -1,0 +1,32 @@
+.container-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #fff;
+
+  .sub-content,
+  .li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .sub-content span {
+    background-color: #faff00;
+    padding: 4px;
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .li {
+    background-color: #292727;
+    border-radius: 8px;
+    padding: 4px;
+
+    span {
+      background-color: #000;
+      border-radius: 8px;
+      padding: 4px;
+    }
+  }
+}

@@ -1,38 +1,47 @@
-header .container {
+header nav {
+  margin-left: 18px;
+  margin-right: 18px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
-header .container ul {
+header nav .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+header nav .logo h1 {
+  font-size: 35px;
+  font-weight: 500;
+  color: #fff;
+}
+header nav ul {
   display: flex;
   list-style: none;
   justify-content: space-between;
   align-items: center;
   gap: 80px;
 }
-header .container ul h1 {
+header nav ul h1 {
   font-size: 35px;
   font-weight: 500;
   color: #fff;
 }
-header .container ul .search {
+header nav ul .search {
   height: 50px;
-  width: 476px;
+  width: 400px;
   background-color: #fff;
   border-radius: 15px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 20px;
 }
-header .container ul .search .search-logo {
+header nav ul .search .search-logo {
   margin-left: 20px;
   background-color: #fff;
 }
-header .container ul .search .search-logo img {
-  background-color: #fff;
-}
-header .container ul .search .search-input {
+header nav ul .search .search-input {
   padding: 10px;
   background-color: #fff;
   border: none;
@@ -99,6 +108,142 @@ header .container ul .search .search-input {
   font-weight: 500;
 }
 
+.container-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #fff;
+}
+.container-top .sub-content,
+.container-top .li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container-top .sub-content span {
+  background-color: #faff00;
+  padding: 4px;
+  border-radius: 8px;
+  color: #fff;
+}
+.container-top .li {
+  background-color: #292727;
+  border-radius: 8px;
+  padding: 4px;
+}
+.container-top .li span {
+  background-color: #000;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.graph {
+  height: 558px;
+  background-color: rgba(48, 53, 65, 0.67);
+  border-radius: 30px;
+}
+
+.bottom-container {
+  align-items: center;
+  color: #fff;
+}
+.bottom-container .top-content {
+  margin: 20px 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-container .top-content span {
+  font-weight: 700;
+}
+.bottom-container .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-color: rgba(32, 35, 43, 0.7);
+  margin: 0 20px 20px;
+  border-radius: 30px;
+}
+.bottom-container .content button {
+  background-color: #000;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 16px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.bottom-container .content-text {
+  font-weight: 600;
+  font-size: 18px;
+}
+.bottom-container .content .red {
+  color: red;
+}
+.bottom-container .content .green {
+  color: green;
+}
+.bottom-container .content .blue {
+  color: #1970d6;
+}
+.bottom-container .content .purple {
+  color: #6c1182;
+}
+
+#r-side-nav {
+  height: 100%;
+  width: 30%;
+  float: right;
+  color: #fff;
+}
+#r-side-nav .container {
+  padding: 16px;
+}
+#r-side-nav .container .el-li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+#r-side-nav .container .el-li h2, #r-side-nav .container .el-li span, #r-side-nav .container .el-li p {
+  font-weight: 600;
+  font-size: 18px;
+}
+#r-side-nav .container .el-li span {
+  color: #fff;
+}
+#r-side-nav .container .el-li p {
+  color: green;
+}
+#r-side-nav .container .el-li .red {
+  color: red;
+}
+#r-side-nav .btm-container .card-top, #r-side-nav .btm-container .card-btm {
+  width: 350px;
+  height: 174px;
+  border-radius: 30px;
+}
+#r-side-nav .btm-container .card-top .logo, #r-side-nav .btm-container .card-btm .logo {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 20px;
+  margin-bottom: 0;
+  flex-direction: column;
+}
+#r-side-nav .btm-container .card-top .content, #r-side-nav .btm-container .card-btm .content {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 21px;
+}
+#r-side-nav .btm-container .card-top {
+  background: linear-gradient(98.73deg, #611d8d 35.75%, #2f7ec1 73.26%);
+}
+#r-side-nav .btm-container .card-btm {
+  background: linear-gradient(99.56deg, #FAFF00 35.82%, #29ABE2 64.75%, #fff 91.33%);
+}
+
 body {
   background-color: #000;
 }
@@ -113,14 +258,6 @@ main {
 }
 
 #main-content {
-  background-color: rgb(143, 195, 176);
   height: 100%;
-  width: 55%;
-}
-
-#r-side-nav {
-  background-color: rgb(193, 134, 134);
-  height: 100%;
-  width: 25%;
-  float: right;
+  width: 50%;
 }/*# sourceMappingURL=index.css.map */

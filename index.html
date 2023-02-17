@@ -10,13 +10,14 @@
   <body>
     <!-- HEADER -->
     <header>
-      <div class="container">
+      <nav>
         <div class="logo">
           <img src="img/Logo.png" alt="logo" />
+          <h1>Hi, Rogers</h1>
         </div>
-        <nav>
+
+        <div class="middle-container">
           <ul>
-            <li><h1>Hi, Rogers</h1></li>
             <div class="search">
               <div class="search-logo">
                 <img src="img/Search.png" alt="search_logo" />
@@ -29,18 +30,19 @@
                 />
               </li>
             </div>
-
             <li>
               <a href="#"
                 ><img src="img/Notif.png" alt="notification_button"
               /></a>
             </li>
-            <li>
-              <a href="#"><img src="img/Pdp.png" alt="profile_picture" /></a>
-            </li>
           </ul>
-        </nav>
-      </div>
+        </div>
+        <div class="bottom-container">
+          <p>
+            <a href="#"><img src="img/Pdp.png" alt="profile_picture" /></a>
+          </p>
+        </div>
+      </nav>
     </header>
 
     <!-- MAIN -->
@@ -87,13 +89,179 @@
 
       <!-- MAIN CONTENT -->
       <section id="main-content">
-        <div class="container"></div>
+        <!-- TOP -->
+        <div class="container-top">
+          <div class="content">
+            <h2>Total Balance</h2>
+            <div class="sub-content">
+              <p>0.97894652</p>
+              <span>BTC</span>
+            </div>
+            <h2>$40,123.56</h2>
+          </div>
+
+          <div class="li">
+            <span>Portfolio</span>
+            <p>Funding</p>
+            <p>Assets</p>
+            <p>P2P</p>
+          </div>
+        </div>
+
+        <!-- MIDDLE -->
+        <div class="container-middle">
+          <div class="graph"></div>
+        </div>
+
+        <!-- BOTTOM -->
+        <div class="bottom-container">
+          <div class="top-content">
+            <h2>Recent Transactions</h2>
+            <span>See all coins</span>
+          </div>
+
+          <div class="content">
+            <img src="img/Bitcoin_2.png" alt="" />
+            <div class="sub-content">
+              <p>Bitcoin</p>
+              <span>BTC</span>
+            </div>
+
+            <div class="sub-content">
+              <p>Market Cap</p>
+              <span class="blue">$40,243.70</span>
+            </div>
+
+            <div class="sub-content">
+              <p>24h change</p>
+              <span class="green">+1,56</span>
+            </div>
+
+            <img src="img/gradient-1.png" alt="line-svg" />
+            <button>Trade</button>
+          </div>
+
+          <div class="content">
+            <img src="img/Etherium_2.png" alt="" />
+            <div class="sub-content">
+              <p>Ethereum</p>
+              <span>ETH</span>
+            </div>
+
+            <div class="sub-content">
+              <p>Market Cap</p>
+              <span class="purple">$40,243.70</span>
+            </div>
+
+            <div class="sub-content">
+              <p>24h change</p>
+              <span class="red">+1,56</span>
+            </div>
+
+            <img src="img/gradient-2.png" alt="line-svg" />
+            <button>Trade</button>
+          </div>
+        </div>
       </section>
 
       <!-- RIGHT SIDE NAV -->
       <section id="r-side-nav">
-        <div class="container"></div>
+        <!-- TOP -->
+        <div class="container">
+          <h2>Recent Transactions</h2>
+          <div class="el-li">
+            <img src="img/Usdt.png" alt="" />
+            <div>
+              <h2>Usdt</h2>
+              <span>Recieved</span>
+            </div>
+            <div>
+              <p>+$3,546</p>
+              <span>Today, 13.45 pm</span>
+            </div>
+          </div>
+
+          <div class="el-li">
+            <img src="img/bnb.png" alt="" />
+            <div>
+              <h2>Bnb</h2>
+              <span>Buy</span>
+            </div>
+            <div>
+              <p>+$07546,546</p>
+              <span>Today, 5.45 pm</span>
+            </div>
+          </div>
+
+          <div class="el-li">
+            <img src="img/litecoin.png" alt="" />
+            <div>
+              <h2>Lite Coin</h2>
+              <span>Withdrawal</span>
+            </div>
+            <div>
+              <p class="red">+ 0.7546</p>
+              <span>Today 7:55 am</span>
+            </div>
+          </div>
+
+          <div class="el-li">
+            <img src="img/Bitcoin.png" alt="" />
+            <div>
+              <h2>Bitcoin</h2>
+              <span>Recieved</span>
+            </div>
+            <div>
+              <p>+ 2.7546</p>
+              <span>Today 8:55 am</span>
+            </div>
+          </div>
+
+          <div class="el-li">
+            <img src="img/Etherium.png" alt="" />
+            <div>
+              <h2>Ethereum</h2>
+              <span>Recieved</span>
+            </div>
+            <div>
+              <p>+ 1.646</p>
+              <span>Today 10:02 am</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- BOTTOM -->
+        <div class="btm-container">
+          <h2>Assets</h2>
+          <div class="card-top">
+            <div class="logo">
+              <img src="img/Bitcoin_W.png" alt="" />
+              <p>Bitcoin</p>
+            </div>
+            <div class="content">
+              <p>121,6450.45</p>
+              <p>BTC</p>
+            </div>
+          </div>
+          <div class="card-btm">
+            <div class="logo">
+              <img src="img/Etherium_3.png" alt="" />
+              <p>Ethereum</p>
+            </div>
+            <div class="content">
+              <p>143,850.45</p>
+              <p>ETH</p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+    <canvas id="graph">
+
+    </canvas>
+
+    <!-- SCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

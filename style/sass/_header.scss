@@ -1,9 +1,22 @@
 header {
-  .container {
+  nav {
+    margin-left: 18px;
+    margin-right: 18px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
 
+      h1 {
+        font-size: 35px;
+        font-weight: 500;
+        color: #fff;
+      }
+    }
     ul {
       display: flex;
       list-style: none;
@@ -19,21 +32,17 @@ header {
 
       .search {
         height: 50px;
-        width: 476px;
+        width: 400px;
         background-color: #fff;
         border-radius: 15px;
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 20px;
-
         .search-logo {
           margin-left: 20px;
           background-color: #fff;
 
-          img {
-            background-color: #fff;
-          }
+          
         }
 
         .search-input {
