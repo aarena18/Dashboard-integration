@@ -61,7 +61,7 @@ header nav ul .search .search-input {
   float: left;
 }
 #l-side-nav .container {
-  margin-top: 48px;
+  margin-top: 58px;
   height: 65px;
   width: 253px;
   border-radius: 17px;
@@ -99,7 +99,7 @@ header nav ul .search .search-input {
   width: 253px;
   border-radius: 17px;
   margin-left: 48px;
-  margin-top: 100px;
+  margin-top: 120px;
   display: flex;
   align-items: center;
   gap: 16px;
@@ -221,7 +221,7 @@ header nav ul .search .search-input {
   color: #fff;
 }
 .bottom-container .top-content {
-  margin: 20px 20px 0;
+  margin: 0 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -234,9 +234,10 @@ header nav ul .search .search-input {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 30px;
+  gap: 10px;
   background-color: rgba(32, 35, 43, 0.7);
-  margin: 0 20px 20px;
+  margin: 20px 20px;
+  padding: 8px;
   border-radius: 30px;
 }
 .bottom-container .content button {
@@ -279,6 +280,7 @@ header nav ul .search .search-input {
   flex-direction: row;
   align-items: center;
   gap: 20px;
+  margin-bottom: 10px;
 }
 #r-side-nav .container .el-li .currency {
   width: 115px;
@@ -288,9 +290,11 @@ header nav ul .search .search-input {
 #r-side-nav .container .el-li p {
   font-weight: 600;
   font-size: 18px;
+  margin: 8px 0px;
+  padding: 0;
 }
 #r-side-nav .container .el-li span {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
 }
 #r-side-nav .container .el-li p {
   color: green;
@@ -301,16 +305,22 @@ header nav ul .search .search-input {
 #r-side-nav .btm-container .card-top,
 #r-side-nav .btm-container .card-btm {
   width: 350px;
-  height: 174px;
+  height: 150px;
+  padding-top: 10px;
   border-radius: 30px;
+  gap: 10px;
 }
 #r-side-nav .btm-container .card-top .logo,
 #r-side-nav .btm-container .card-btm .logo {
   display: flex;
   align-items: flex-start;
   margin-left: 20px;
-  margin-bottom: 0;
   flex-direction: column;
+}
+#r-side-nav .btm-container .card-top .logo p,
+#r-side-nav .btm-container .card-btm .logo p {
+  margin: 0 12px;
+  padding: 0;
 }
 #r-side-nav .btm-container .card-top .content,
 #r-side-nav .btm-container .card-btm .content {
@@ -319,11 +329,20 @@ header nav ul .search .search-input {
   font-weight: 600;
   font-size: 21px;
 }
+#r-side-nav .btm-container .card-top .content p,
+#r-side-nav .btm-container .card-btm .content p {
+  margin: 0 32px;
+  padding: 0;
+}
 #r-side-nav .btm-container .card-top {
   background: linear-gradient(98.73deg, #611d8d 35.75%, #2f7ec1 73.26%);
 }
 #r-side-nav .btm-container .card-btm {
+  margin: 16px 0px;
   background: linear-gradient(99.56deg, #faff00 35.82%, #29abe2 64.75%, #fff 91.33%);
+}
+#r-side-nav .btm-container .card-btm p {
+  color: #000;
 }
 
 body {
