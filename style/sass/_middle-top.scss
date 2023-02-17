@@ -1,14 +1,24 @@
 .container-top {
+  height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   color: #fff;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+  }
 
   .sub-content,
   .li {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 32px;
   }
 
   .sub-content span {
@@ -18,10 +28,17 @@
     color: #fff;
   }
 
+  .sub-content p {
+    font-weight: 700;
+    font-size: 29px;
+    margin: 0;
+    padding: 0;
+  }
+
   .li {
     background-color: #292727;
-    border-radius: 8px;
-    padding: 4px;
+    border-radius: 17px;
+    padding: 0 18px;
 
     span {
       background-color: #000;
